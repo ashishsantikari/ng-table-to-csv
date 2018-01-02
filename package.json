@@ -1,5 +1,5 @@
 {
-  "name": "ng-table-to-csv",
+  "name": "ng-table-to-csv-webpack",
   "description": "Export data from ngTable to CSV (Forked from ng-table-export)",
   "version": "0.3.3",
   "author": {

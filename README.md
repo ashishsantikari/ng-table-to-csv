@@ -16,18 +16,18 @@ As opposed to [the forked library](https://github.com/esvit/ng-table-export), th
 
 ## Getting Started / Usage
 
-Install module via bower (or download the files from the `dist` folder in the repo):
+Install module via npm (or download the files from the `dist` folder in the repo):
 
 ```shell
-bower install ng-table-to-csv --save
+npm install ng-table-to-csv-webpack --save
 ```
 
 Add a reference to `dist/ng-table-to-csv.js` into your HTML pages.
 
-Add `ngTableToCsv` as a dependency to your module:
+Add `ngTableToCsvWp` as a dependency to your module:
 
 ```js
-angular.module('your_app', ['ngTableToCsv']);
+angular.module('your_app', ['ngTableToCsvWp']);
 ```
 
 Add `export-csv` attribute directive on the `table` to define a new `csv` object on the scope with `generate()` and `link()` functions on them. 
